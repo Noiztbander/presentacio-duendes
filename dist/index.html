@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Algo se mueve en la casa — Expediente sobre duendes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/json" id="speaker-notes">
+      [
+        "Bajad la voz, apagad la luz grande y dejad solo una. Esto que vais a oír esta noche no es un cuento para niños. Es un expediente. Llevamos siglos escribiéndolo entre todos: aldeanos asturianos, abuelas guatemaltecas, vecinos de Alabama, madres en Monterrey. Personas que no se conocen, en idiomas distintos, repitiendo el mismo detalle: alguien pequeño se ha colado en casa. Esta noche vamos a abrir ese expediente. No para demostrar que existen. Tampoco para reírnos de quien lo cree. Vamos a mirarlo de cerca, a ver qué patrón aparece cuando juntamos todas las piezas. Aviso: hablar de ellos por la noche, según el folklore, no es buena idea. Pero ya estamos aquí.",
+
+        "Antes de meternos en casos, una palabra. Duende. Hoy suena a dibujo animado, a gorrito, a Disney. Pero la palabra viene del castellano antiguo «duen de casa», que es una contracción de «dueño de casa». Es decir: literalmente, el que es dueño de tu casa. No el que la visita. El que la posee. Cuando una abuela española hablaba de un duende en el siglo XVI, no estaba pensando en algo simpático. Estaba diciendo que algo invisible se había instalado en su hogar y movía las cosas. Esa es la base. A partir de ahí, cada cultura ha puesto su sombrero, su gorro y su acento. FUENTES: RAE, Diccionario de Autoridades; Wikipedia «Duende».",
+
+        "Empezamos por casa. Asturias. Norte verde, lluvioso, montañas. El Trasgu. Según la tradición asturiana, es un duende doméstico de muy baja estatura, viste blusa y gorro rojos —«el del gorru colorau»— y suele ser cojo o tener la mano izquierda agujereada. ¿Para qué sirve un agujero en la mano? Para que cuando le encargas una tarea imposible, no pueda terminarla, se rinda y se vaya. Es la única forma de echarlo. Si os mudáis, os sigue. Hay un cuento clásico en el que la familia huye de una casa por culpa del trasgu, y a mitad de camino el marido pregunta «¿nos hemos dejado algo?», y desde el carro se oye una vocecita que dice «la lámpara, pero la traigo yo». FUENTES: Wikipedia «Trasgu»; Astures.es «Mitología asturiana: el trasgu».",
+
+        "Cruzamos el Atlántico. Guatemala. Aquí el duende cambia de tono, se vuelve más oscuro y bastante más perturbador. El Sombrerón es uno de los personajes más populares del folklore guatemalteco, junto a la Llorona, el Cadejo y la Siguanaba. Hombre de muy baja estatura, vestido completamente de negro, sombrero enorme que le tapa la cara, botas ruidosas, cinturón brillante. Cabalga cuatro mulas. Se enamora de jóvenes de cabello largo y ojos grandes. Les canta serenatas con una guitarra de plata. Y por la noche, según la tradición, entra en sus habitaciones y les hace trenzas imposibles de deshacer. La víctima deja de comer, deja de dormir. La única forma de protegerla, dice el folklore, es cortarle el pelo. FUENTES: Wikipedia «El Sombrerón»; Aprende.guatemala.com «Leyenda de El Sombrerón»; Prensa Libre «El Sombrerón».",
+
+        "Y aquí llega el primer patrón inquietante. Lo que acabamos de ver no es una coincidencia. En toda Europa, en toda Latinoamérica, en África, en Japón, aparece la misma criatura con distinto nombre. Es siempre pequeña. Casi siempre lleva sombrero o gorro. Casi siempre es traviesa. Casi siempre se mete en tu casa por la noche. Pequeño, gorro, casa, ruido, objetos que cambian de sitio. Esos cinco rasgos se repiten en mitologías que jamás tuvieron contacto entre sí. Pueden ser dos cosas: o nuestros antepasados, separados por océanos, inventaron por casualidad exactamente la misma criatura. O vieron lo mismo. Vosotros decidís cuál de las dos opciones os incomoda más.",
+
+        "Comparativa europea, rápida, para entender lo extendido que está esto. KOBOLD, Alemania. Espíritu doméstico que vive en hogares, ayuda con tareas si se le respeta, hace travesuras si se le ofende. Le dejas un platito de comida y todo va bien. REDCAP, frontera entre Escocia e Inglaterra. Aquí ya no es simpático. Vive en torres en ruinas y, según la leyenda, tiñe su gorro con la sangre de los viajeros que mata. Mismo arquetipo —ser pequeño con gorro rojo— pero versión asesina. HULDUFÓLK, Islandia. La «gente oculta». En encuestas reales, un porcentaje no trivial de la población islandesa no descarta su existencia, y se han desviado carreteras para no molestar sus rocas. FUENTES: Britannica «Kobold»; Wikipedia «Redcap»; Wikipedia «Huldufólk».",
+
+        "Saltamos a Japón porque conviene salir de Occidente. ZASHIKI-WARASHI. Espíritu con forma de niño o niña pequeña, de unos cinco o seis años, que habita en casas antiguas del norte de Japón, especialmente en la región de Iwate. Lo curioso: en Japón, este duende doméstico trae fortuna. Si vive en tu casa, prosperas. Si se va, la familia se arruina. Hace travesuras —pisadas de noche, marcas de manos pequeñas, objetos que se mueven— pero traerlo es una bendición. Mismo arquetipo, otra moral. La pregunta que deja esta slide es: ¿por qué culturas que no se conocían llegaron al mismo personaje y solo discrepan en si es bueno o malo? FUENTES: Yokai.com «Zashiki warashi»; Yokai.jp «Zashiki-warashi».",
+
+        "PAUSA. Momento interactivo. Quiero que levantéis la mano —o que pulséis si está en pantalla— para contestar una sola pregunta. ¿A vosotros os ha desaparecido alguna vez algo de casa, lo habéis buscado durante días, y luego ha aparecido exactamente en el sitio en el que ya habíais mirado tres veces? Sin trampa. Pensadlo. Las llaves. Un calcetín. Un boli. Ese pendiente. Esa carta que jurabas haber dejado encima de la mesa. Levantad la mano. Mirad alrededor. Contad cuántos somos. En Asturias a eso lo llaman el Sumiciu, otro duendecillo doméstico, primo del trasgu, que se especializa en esconder cosas. La explicación racional existe, claro. Pero hoy estamos en otra noche.",
+
+        "Plot twist número uno. Antes de seguir con casos modernos, hay algo que conviene poner sobre la mesa. Hay una creencia popular muy extendida —no científica, pero muy persistente— que dice que los niños pequeños ven cosas que los adultos ya no ven. Los amigos invisibles. Los niños que saludan a una esquina vacía. Los bebés que se ríen mirando al techo cuando no hay nadie. Madres y abuelas, durante generaciones, han dicho lo mismo en idiomas distintos: que los niños perciben presencias que el mundo adulto ha dejado de notar. La psicología infantil tiene explicaciones muy razonables —desarrollo cognitivo, juego simbólico, pareidolia. Pero el folklore tiene la suya: que los niños, al ser nuevos en este mundo, todavía pueden ver a los que llevan más tiempo en él. Vosotros decidís.",
+
+        "Caso viral moderno número uno. NO VERIFICADO. 2006. Crichton, un barrio de Mobile, Alabama. Varios vecinos empiezan a reunirse bajo un árbol. Aseguran ver, entre las ramas, una figura pequeña con sombrero. La cadena local NBC, WPMI-TV, manda al reportero Brian Johnson. La cosa, en sus propias palabras, «se les fue de las manos» al llegar. Cada vez más gente decía verlo. Una vecina entrega un dibujo amateur tan tosco que se vuelve icónico por sí mismo. El vídeo sube a YouTube en San Patricio, 17 de marzo de 2006, y se convierte en uno de los primeros virales de la historia de internet —más de 28 millones de visualizaciones. El caso se debate en el New York Times, en MSNBC, en el O'Reilly Factor. Años después, varios testigos dicen que era una broma de un vecino disfrazado. Pero los primeros relatos —los de la primera semana, antes de que llegaran las cámaras— nadie los ha podido explicar del todo. FUENTES: Wikipedia «Crichton Leprechaun»; AL.com entrevista a Shun Thomas; original WPMI-TV en YouTube.",
+
+        "Caso viral moderno número dos. NO VERIFICADO. Mayo de 2024. Una finca a las afueras de Monterrey, Nuevo León, México. Cámara de seguridad activa. La grabación —que circula esa primavera por X y TikTok— muestra una figura pequeña, de aspecto humanoide, atravesando el patio de noche y desapareciendo entre los arbustos. Medios mexicanos como Debate y Zócalo recogen el caso. El propietario asegura que llevaba semanas con incidentes: animales inquietos, herramientas movidas, ruidos. La explicación más probable, según expertos en imagen, es un mono araña, un niño, o un artefacto de compresión de vídeo. La explicación más popular en los comentarios de TikTok es otra. FUENTES: Debate.com.mx, mayo 2024; Zócalo, mayo 2024.",
+
+        "Pausa. Momento interactivo número dos. Pareidolia. Es la tendencia del cerebro humano a ver caras y formas familiares donde no las hay. Una nube con forma de perro. Un enchufe que parece sorprendido. Un árbol que parece una persona. Vais a ver dos imágenes durante diez segundos cada una. Mirad y decidid: ¿qué veis? No lo digáis aún. Cuando termine la cuenta, descubriremos qué hay realmente. Esta es la herramienta principal de los escépticos para explicar avistamientos. Y es buena. Pero también explica por qué, cuando estamos solos en casa de noche, vemos cosas en las cortinas que no estaban allí de día. Pulsad sobre cada imagen para revelar.",
+
+        "Slide obligatoria. Cómo analizar un avistamiento, sin ser un crédulo y sin ser un cínico. Tres pasos. UNO: testimonio. ¿Cuántos testigos? ¿Se conocían? ¿Estaban juntos cuando ocurrió o lo cuentan después? Un solo testigo no es nada. Veinte testigos independientes ya es algo. DOS: contexto físico. ¿Hay luz, sombras, viento, alcohol, falta de sueño, animales sueltos en la zona? La pareidolia se dispara con poca luz. TRES: patrón. ¿Es un caso aislado o encaja con un patrón folklórico anterior? Un avistamiento que repite rasgos —pequeño, gorro, ruidos, objetos movidos— es interesante no porque pruebe nada, sino porque algo, en muchas culturas, ha llevado a contar la misma historia. Aplicad esto a cualquier vídeo viral. Funciona.",
+
+        "Volvamos a los patrones. Si ponemos al lado al Trasgu asturiano, al Sombrerón guatemalteco, al Kobold alemán, al Zashiki-warashi japonés y al Crichton Leprechaun, salen siete rasgos repetidos. Estatura inferior a la de un niño humano. Casi siempre cubrecabezas —gorro, sombrero, capucha. Vinculación a un espacio concreto: una casa, un árbol, un campo. Travesuras: objetos que se mueven, animales inquietos, ruidos. Conexión con la noche y la luna. Manos pequeñas. Y algo importante: comportamiento territorial —no quieren irse. Ningún antropólogo serio dirá que eso prueba que existen. Pero todos coinciden en que prueba algo: que la mente humana, en cualquier latitud, parece necesitar contar exactamente esta historia.",
+
+        "Cierre, antes de la slide final. Volvemos al principio. Si los duendes son una invención, ¿por qué la inventamos siempre igual? Si son una proyección psicológica, ¿por qué la proyectamos pequeña, encapuchada, traviesa, doméstica? Si son una explicación primitiva para los ruidos de una casa vieja, ¿por qué nos sigue sirviendo a nosotros, que ya tenemos calefacción, electricidad e internet? Hay tres respuestas posibles. UNO: somos una especie con un cerebro narrativo idéntico, y siempre llegamos a las mismas historias. DOS: hubo, hace miles de años, criaturas pequeñas que convivieron con nosotros y este es el recuerdo cultural. TRES: están aquí, y siguen. Las tres son inquietantes. Elegid la vuestra antes de irse a dormir.",
+
+        "Última slide. Hablar de ellos por la noche, según el folklore, atrae su atención. Hemos hablado largo. Si esta noche, mientras dormís, oís pasos que no son vuestros, una puerta que se mueve, un objeto que cae solo, una risa pequeña en la habitación de al lado: la tradición es clara. No los miréis directamente. No les habléis. Y, sobre todo, no preguntéis su nombre.",
+
+        "Bibliografía y fuentes consultadas. Esta es la lista completa para quien quiera seguir investigando por su cuenta —o para quien necesite un argumento sólido la próxima vez que alguien le pregunte de dónde sale todo esto. Recordad: en folklore, una sola fuente no es nada; un patrón en muchas fuentes ya es algo."
+      ]
+    </script>
+    <link rel="stylesheet" crossorigin href="/assets/index-nwP5-CY-.css">
+  </head>
+  <body>
+    <deck-stage width="1920" height="1080">
+      <!-- 01 PORTADA -->
+      <section class="cover has-bg" data-screen-label="01 Portada">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="meta-top" style="font-size: 24px">
+          <span
+            ><span class="red-dot"></span>EXPEDIENTE 0317 — CONFIDENCIAL</span
+          >
+          <span>UNA INVESTIGACIÓN DE FOLKLORE OSCURO</span>
+          <span>PIJAMADA — NOCHE DEL 01 DE MAYO</span>
+        </div>
+        <div style="margin-top: 220px">
+          <h1 class="super-title">Algo se mueve<br />en la <em>casa</em>.</h1>
+        </div>
+        <div class="subtitle" style="font-size: 26px">
+          Seres pequeños · folklore oscuro<br />
+          avistamientos modernos · patrones inquietantes
+        </div>
+        <div class="stamp-classified">CLASIFICADO</div>
+        <div class="meta-bottom" style="font-size: 24px">
+          <span>NO APTO PARA ESCÉPTICOS PROFESIONALES</span>
+          <span>17 SLIDES · 8–12 MIN</span>
+          <span>HABLAR DE ELLOS POR LA NOCHE — DESACONSEJADO</span>
+        </div>
+      </section>
+
+      <!-- 02 ETIMOLOGÍA -->
+      <section data-screen-label="02 Definición">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">02 / DEFINICIÓN</span><span>EL TÉRMINO</span>
+          </div>
+          <span>EXPEDIENTE 0317</span>
+        </div>
+        <div class="kicker">Antes de empezar</div>
+        <h2 class="headline">
+          «Duende» significa, literalmente, <em>dueño de casa</em>.
+        </h2>
+        <div class="cols-2" style="margin-top: 40px">
+          <ul class="bullets">
+            <li>Del castellano antiguo <strong>«duen de casa»</strong>.</li>
+            <li>
+              No es un visitante: es <strong>el que se ha quedado</strong>.
+            </li>
+            <li>Aparece en literatura ya en el siglo XVI.</li>
+            <li>
+              La versión Disney es una traducción <strong>muy reciente</strong>.
+            </li>
+          </ul>
+          <div>
+            <span class="field-label">Nota etimológica — RAE</span>
+            <p class="lead" style="font-size: 32px; line-height: 1.3">
+              «Duen de casa» → contracción → «dueño» de la casa que tú creías
+              que era tuya.
+            </p>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>02 / 17</span><span>FUENTES: RAE · WIKIPEDIA «DUENDE»</span>
+        </div>
+      </section>
+
+      <!-- 03 TRASGU -->
+      <section class="has-bg" data-screen-label="03 El Trasgu">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">03 / SUJETO A</span
+            ><span>FOLKLORE — ESPAÑA</span>
+          </div>
+          <span class="stamp">DOCUMENTADO</span>
+        </div>
+        <div class="cols-2-img-text">
+          <div class="evidence figure-silhouette">
+            <span class="corner tl"></span><span class="corner tr"></span
+            ><span class="corner bl"></span><span class="corner br"></span>
+            <img class="real" src="/duende-trasgo.webp" alt="El Trasgu" />
+            <div class="media-overlay"></div>
+            <div
+              style="
+                position: absolute;
+                bottom: 18px;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 3;
+              "
+            >
+              <div class="desc">
+                Reconstrucción según relatos de Llano Roza (1922)
+              </div>
+              <div class="keyword" style="margin-top: 8px">
+                KEYWORD · TRASGU ASTURIAS GORRO ROJO
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="tag">SUJETO A — TRASGU / TRASNO</span>
+            <h2 class="headline" style="font-size: 80px">
+              El del <em>gorru colorau</em>.
+            </h2>
+            <ul class="bullets">
+              <li>Asturias y Galicia. <strong>Doméstico</strong>.</li>
+              <li>Pequeño. Gorro y blusa rojos.</li>
+              <li>
+                <strong>Mano izquierda agujereada</strong>: por eso se le
+                encargan tareas imposibles.
+              </li>
+              <li>Si te mudas, <strong>te sigue</strong>.</li>
+              <li>«Habéis dejado la lámpara — pero la traigo yo».</li>
+            </ul>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>03 / 17</span
+          ><span
+            >FUENTES: WIKIPEDIA «TRASGU» · ASTURES.ES · LLANO ROZA, 1922</span
+          >
+        </div>
+      </section>
+
+      <!-- 04 SOMBRERÓN -->
+      <section class="has-bg" data-screen-label="04 El Sombrerón">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">04 / SUJETO B</span
+            ><span>FOLKLORE — GUATEMALA</span>
+          </div>
+          <span class="stamp">DOCUMENTADO</span>
+        </div>
+        <div class="cols-2-img-text">
+          <div class="evidence figure-silhouette" style="background: #0e0a0c">
+            <span class="corner tl"></span><span class="corner tr"></span
+            ><span class="corner bl"></span><span class="corner br"></span>
+            <!-- <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/9/90/Roberto_Alejandro_Vargas_Valdez-El_duende.png" alt="El Sombrerón"> -->
+            <img
+              class="real"
+              src="/assets/Leyenda-El-Sombreron-2-Guatemala-e1744052260251-300x282-CJ8hQHmn.jpeg"
+              alt="El Sombrerón"
+            />
+            <div class="media-overlay"></div>
+            <div
+              style="
+                position: absolute;
+                bottom: 18px;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 3;
+              "
+            >
+              <div class="desc">
+                Hombre pequeño · sombrero ancho · cuatro mulas
+              </div>
+              <div class="keyword" style="margin-top: 8px">
+                KEYWORD · SOMBRERÓN GUATEMALA SERENATA
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="tag">SUJETO B — EL SOMBRERÓN / TZITZIMITE</span>
+            <h2 class="headline" style="font-size: 76px">
+              Llega <em>cantando</em>. Se queda <em>trenzando</em>.
+            </h2>
+            <ul class="bullets">
+              <li>Hombre diminuto, vestido de negro, sombrero enorme.</li>
+              <li>
+                <strong>Cuatro mulas</strong> atadas frente a la casa elegida.
+              </li>
+              <li>
+                Serenata con guitarra de plata a jóvenes de cabello largo.
+              </li>
+              <li>
+                De noche, entra y hace
+                <strong>trenzas imposibles de deshacer</strong>.
+              </li>
+              <li>
+                La víctima deja de comer. De dormir. La única cura:
+                <strong>cortar el pelo</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>04 / 17</span
+          ><span
+            >FUENTES: WIKIPEDIA «EL SOMBRERÓN» · APRENDE.GUATEMALA.COM · PRENSA
+            LIBRE</span
+          >
+        </div>
+      </section>
+
+      <!-- 05 PATRÓN — primer plot twist -->
+      <section data-screen-label="05 Patrón inquietante #1">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">05 / OBSERVACIÓN</span
+            ><span>PATRÓN INQUIETANTE #1</span>
+          </div>
+          <span style="color: var(--blood)">⚠ COINCIDENCIAS NO ALEATORIAS</span>
+        </div>
+        <div class="kicker">Plot twist</div>
+        <h2 class="headline">
+          Pueblos que <em>nunca se conocieron</em><br />describen al
+          <em>mismo</em> ser.
+        </h2>
+        <div class="cols-3" style="margin-top: 60px">
+          <div class="method-card">
+            <p class="step-num">5</p>
+            <p class="step-title">rasgos repetidos</p>
+            <p class="step-body">
+              Pequeño · gorro o sombrero · doméstico · ruidoso · nocturno.
+            </p>
+          </div>
+          <div class="method-card">
+            <p class="step-num">∞</p>
+            <p class="step-title">posibles culturas</p>
+            <p class="step-body">
+              Asturias, Galicia, Alemania, Escocia, Islandia, Japón, Guatemala,
+              El Salvador, Honduras…
+            </p>
+          </div>
+          <div class="method-card">
+            <p class="step-num">2</p>
+            <p class="step-title">explicaciones</p>
+            <p class="step-body">
+              (a) Coincidencia narrativa universal. (b) Vieron lo mismo. Elegid
+              cuál os incomoda más.
+            </p>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>05 / 17</span
+          ><span>SIN FUENTE VERIFICABLE QUE EXPLIQUE LA COINCIDENCIA</span>
+        </div>
+      </section>
+
+      <!-- 06 COMPARATIVA EUROPEA -->
+      <section data-screen-label="06 Europa: Kobold y Redcap">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">06 / SUJETOS C–D</span
+            ><span>COMPARATIVA EUROPEA</span>
+          </div>
+          <span>EXPEDIENTE 0317</span>
+        </div>
+        <h3 class="sub">Mismo arquetipo · distinta moral</h3>
+        <div class="cols-3">
+          <div class="creature-card">
+            <div class="img evidence" style="height: 280px">
+              <span class="corner tl"></span><span class="corner tr"></span
+              ><span class="corner bl"></span><span class="corner br"></span>
+              <img
+                class="real"
+                src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Kobold_artlibre_jnl.jpg"
+                alt="Kobold"
+              />
+              <div class="media-overlay"></div>
+            </div>
+            <div class="body">
+              <div class="origin">Alemania · doméstico</div>
+              <div class="name">El que ayuda</div>
+              <div class="traits">
+                Vive en casas. Si le respetas y le dejas comida, hace tareas. Si
+                le ofendes, rompe cosas. Mismo trato que al Trasgu.
+              </div>
+            </div>
+          </div>
+          <div class="creature-card">
+            <div
+              class="img evidence"
+              style="height: 280px; background: #150e10"
+            >
+              <span class="corner tl"></span><span class="corner tr"></span
+              ><span class="corner bl"></span><span class="corner br"></span>
+              <!-- <img
+                class="real"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Goblin_illustration_from_19th_century.png"
+                alt="Redcap goblin"
+              /> -->
+              <img class="real" src="/assets/OIP-BZ2OmKfB.webp" alt="Redcap goblin" />
+              <div
+                class="media-overlay"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    rgba(80, 0, 0, 0.4) 0%,
+                    rgba(8, 5, 5, 0.7) 100%
+                  );
+                "
+              ></div>
+            </div>
+            <div class="body">
+              <div class="origin">Frontera Escocia–Inglaterra</div>
+              <div class="name">El que mata</div>
+              <div class="traits">
+                Vive en torres en ruinas. Su gorro rojo, según la leyenda, está
+                teñido con sangre de viajeros. Misma estatura, otra historia.
+              </div>
+            </div>
+          </div>
+          <div class="creature-card">
+            <div class="img evidence" style="height: 280px">
+              <span class="corner tl"></span><span class="corner tr"></span
+              ><span class="corner bl"></span><span class="corner br"></span>
+              <!-- <img
+                class="real"
+                src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=85"
+                alt="Islandia rocas"
+              /> -->
+              <img
+                class="real"
+                src="/assets/1594217754771-huldufolk-leyendas-cortas-de-duendes-de-islandia-4-CzaWJcvI.webp"
+                alt="Islandia rocas"
+              />
+              <div class="media-overlay"></div>
+            </div>
+            <div class="body">
+              <div class="origin">Islandia · «la gente oculta»</div>
+              <div class="name">Los que están</div>
+              <div class="traits">
+                Encuestas reales muestran que parte de la población no descarta
+                su existencia. Carreteras se han desviado para no molestar sus
+                rocas.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>06 / 17</span
+          ><span
+            >FUENTES: BRITANNICA «KOBOLD» · WIKIPEDIA «REDCAP» · WIKIPEDIA
+            «HULDUFÓLK»</span
+          >
+        </div>
+      </section>
+
+      <!-- 07 ZASHIKI-WARASHI -->
+      <section class="has-bg" data-screen-label="07 Zashiki-warashi">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">07 / SUJETO E</span
+            ><span>FUERA DE OCCIDENTE — JAPÓN</span>
+          </div>
+          <span class="stamp">DOCUMENTADO</span>
+        </div>
+        <div class="cols-2-img-text">
+          <div class="evidence" style="background: #0d0a09">
+            <span class="corner tl"></span><span class="corner tr"></span
+            ><span class="corner bl"></span><span class="corner br"></span>
+            <!-- <img
+              class="real"
+              src="https://upload.wikimedia.org/wikipedia/commons/0/03/Akinari_Zeni-no-sei.jpg"
+              alt="Zashiki-warashi"
+            /> -->
+            <img class="real" src="/assets/images-uRXsyjQU.jpeg" alt="Zashiki-warashi" />
+            <div class="media-overlay"></div>
+            <div
+              style="
+                position: absolute;
+                bottom: 18px;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 3;
+              "
+            >
+              <div class="desc">
+                Espíritu con forma de niño/a · Iwate, norte de Japón
+              </div>
+              <div class="keyword" style="margin-top: 8px">
+                KEYWORD · ZASHIKI WARASHI YOKAI
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="tag">SUJETO E — ZASHIKI-WARASHI</span>
+            <h2 class="headline" style="font-size: 76px">
+              Mismo duende.<br /><em>Otra moral.</em>
+            </h2>
+            <ul class="bullets">
+              <li>Espíritu doméstico con forma de niño/a de 5–6 años.</li>
+              <li>Habita casas antiguas del norte de Japón.</li>
+              <li>Pisadas, marcas de manos, objetos que se mueven.</li>
+              <li>
+                <strong>Su presencia trae fortuna.</strong> Si se va, la familia
+                se arruina.
+              </li>
+              <li>
+                La misma criatura que el Trasgu — solo que aquí
+                <strong>quieres que se quede</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>07 / 17</span
+          ><span>FUENTES: YOKAI.COM · YOKAI.JP «ZASHIKI-WARASHI»</span>
+        </div>
+      </section>
+
+      <!-- 08 INTERACCIÓN VOTACIÓN -->
+      <section data-screen-label="08 Votación rápida">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">08 / INTERACCIÓN</span
+            ><span>VOTACIÓN ANÓNIMA</span>
+          </div>
+          <span style="color: var(--blood)">— PULSA SI APLICA —</span>
+        </div>
+        <div class="kicker">Pausa · momento interactivo #1</div>
+        <h2 class="headline" style="font-size: 64px; line-height: 1.05">
+          ¿Te ha desaparecido <em>algo</em> de casa?
+        </h2>
+        <p class="lead" style="margin: 10px 0 28px">
+          Pulsa todas las que te hayan pasado. Sin trampa.
+        </p>
+        <div class="vote-panel">
+          <button class="vote-btn" data-vote="keys">
+            <span
+              ><span class="label-num">A.</span>Llaves que aparecen donde ya
+              buscaste</span
+            ><span class="count" data-count>0</span>
+          </button>
+          <button class="vote-btn" data-vote="sock">
+            <span
+              ><span class="label-num">B.</span>Un calcetín, sin pareja, para
+              siempre</span
+            ><span class="count" data-count>0</span>
+          </button>
+          <button class="vote-btn" data-vote="ruido">
+            <span
+              ><span class="label-num">C.</span>Ruidos en casa cuando no había
+              nadie</span
+            ><span class="count" data-count>0</span>
+          </button>
+          <button class="vote-btn" data-vote="objeto">
+            <span
+              ><span class="label-num">D.</span>Algo cambiado de sitio sin saber
+              por quién</span
+            ><span class="count" data-count>0</span>
+          </button>
+        </div>
+        <div class="file-footer">
+          <span>08 / 17</span
+          ><span>EN ASTURIAS A ESTO LO LLAMAN «EL SUMICIU»</span>
+        </div>
+      </section>
+
+      <!-- 09 NIÑOS Y AMIGOS INVISIBLES -->
+      <section
+        class="children-slide has-bg"
+        data-screen-label="09 Los niños ven cosas"
+      >
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">09 / OBSERVACIÓN</span
+            ><span>PATRÓN INQUIETANTE #2</span>
+          </div>
+          <span style="color: var(--blood)">⚠ TESTIMONIO ANECDÓTICO</span>
+        </div>
+        <div class="kicker">Plot twist</div>
+        <h2 class="headline" style="font-size: 88px">
+          Dicen que los niños<br /><em>ven cosas</em> que nosotros<br />ya no
+          vemos.
+        </h2>
+        <div class="quote-block">
+          <p>
+            El bebé se ríe mirando al techo. La niña saluda a la esquina. El
+            amigo invisible tiene nombre, y come. La madre ya no pregunta.
+          </p>
+          <p class="attr">
+            — RELATO DOMÉSTICO RECURRENTE · MUCHAS CULTURAS · MUCHOS SIGLOS
+          </p>
+        </div>
+        <ul class="bullets" style="margin-top: 44px; max-width: 1100px">
+          <li>
+            Psicología infantil: juego simbólico, desarrollo cognitivo,
+            pareidolia.
+          </li>
+          <li>
+            Folklore: <strong>todavía pueden ver</strong> a los que llevan más
+            tiempo aquí.
+          </li>
+          <li>
+            Las dos explicaciones funcionan. Las dos son inquietantes a su
+            manera.
+          </li>
+        </ul>
+        <div class="file-footer">
+          <span>09 / 17</span
+          ><span
+            >SEGÚN RELATOS POPULARES · SIN FUENTE ACADÉMICA QUE LO PRUEBE</span
+          >
+        </div>
+      </section>
+
+      <!-- 10 CASO MODERNO 1 — ALABAMA -->
+      <section class="has-bg" data-screen-label="10 Caso Crichton 2006">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">10 / CASO VIRAL #1</span
+            ><span>MOBILE, ALABAMA · 2006</span>
+          </div>
+          <span class="tag unverified" style="margin: 0">NO VERIFICADO</span>
+        </div>
+        <div class="cols-2-img-text">
+          <div
+            class="evidence"
+            style="
+              position: relative;
+              padding: 0;
+              overflow: hidden;
+              background: #000;
+            "
+          >
+            <span class="corner tl"></span><span class="corner tr"></span
+            ><span class="corner bl"></span><span class="corner br"></span>
+            <iframe
+              src="https://www.youtube.com/embed/K1ljOcl39PQ?start=0"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
+              allowfullscreen
+              style="
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                z-index: 1;
+              "
+            ></iframe>
+            <div
+              style="
+                position: absolute;
+                top: 14px;
+                left: 14px;
+                font-family: var(--mono);
+                font-size: 14px;
+                letter-spacing: 0.3em;
+                color: var(--blood);
+                border: 1px solid var(--blood);
+                padding: 3px 8px;
+                z-index: 2;
+                pointer-events: none;
+              "
+            >
+              EVIDENCIA
+            </div>
+          </div>
+          <div>
+            <span class="tag warn">CASO VIRAL · NO VERIFICADO</span>
+            <h2 class="headline" style="font-size: 72px">
+              El <em>duende</em> del árbol.
+            </h2>
+            <ul class="bullets">
+              <li>
+                <strong>14 marzo 2006.</strong> Crichton, Mobile, Alabama.
+              </li>
+              <li>
+                Vecinos se concentran bajo un árbol. Aseguran ver una figura
+                pequeña.
+              </li>
+              <li>
+                NBC local manda al reportero. «La cosa se nos fue de las manos».
+              </li>
+              <li>
+                Vídeo a YouTube en San Patricio.
+                <strong>+28 millones de visualizaciones.</strong>
+              </li>
+              <li>
+                Años después: ¿broma de un vecino? ¿O vieron algo antes de las
+                cámaras?
+              </li>
+            </ul>
+            <a
+              class="video-link"
+              href="https://www.youtube.com/watch?v=K1ljOcl39PQ"
+              target="_blank"
+              rel="noopener"
+              >Ver reportaje original WPMI</a
+            >
+            <div class="source-links">
+              <a
+                href="https://en.wikipedia.org/wiki/Crichton_Leprechaun"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org/wiki/Crichton_Leprechaun</a
+              >
+              <a
+                href="https://knowyourmeme.com/memes/mobile-leprechaun"
+                target="_blank"
+                rel="noopener"
+                >knowyourmeme.com/memes/mobile-leprechaun</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>10 / 17</span
+          ><span
+            >FUENTES: WIKIPEDIA «CRICHTON LEPRECHAUN» · AL.COM ENTREVISTA SHUN
+            THOMAS · WPMI-TV</span
+          >
+        </div>
+      </section>
+
+      <!-- 11 CASO MODERNO 2 — MONTERREY -->
+      <section class="has-bg" data-screen-label="11 Caso Monterrey 2024">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=1920&q=85"
+          alt=""
+        />
+        <div class="bg-overlay"></div>
+        <div class="bg-vignette"></div>
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">11 / CASO VIRAL #2</span
+            ><span>MONTERREY, MÉXICO · 2024</span>
+          </div>
+          <span class="tag unverified" style="margin: 0">NO VERIFICADO</span>
+        </div>
+        <div class="cols-2-img-text">
+          <div
+            class="evidence"
+            style="
+              position: relative;
+              padding: 0;
+              overflow: hidden;
+              background: #000;
+            "
+          >
+            <span class="corner tl"></span><span class="corner tr"></span
+            ><span class="corner bl"></span><span class="corner br"></span>
+            <iframe
+              src="https://www.youtube.com/embed/Bob9O1K4zKg"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
+              allowfullscreen
+              style="
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                z-index: 1;
+              "
+            ></iframe>
+            <div
+              style="
+                position: absolute;
+                top: 14px;
+                left: 14px;
+                font-family: var(--mono);
+                font-size: 14px;
+                letter-spacing: 0.3em;
+                color: var(--blood);
+                border: 1px solid var(--blood);
+                padding: 3px 8px;
+                z-index: 2;
+                pointer-events: none;
+              "
+            >
+              EVIDENCIA
+            </div>
+          </div>
+          <div>
+            <span class="tag warn">CASO VIRAL · NO VERIFICADO</span>
+            <h2 class="headline" style="font-size: 72px">
+              Cámara de <em>seguridad</em>.<br />Finca rural.
+            </h2>
+            <ul class="bullets">
+              <li>
+                <strong>Mayo 2024.</strong> Afueras de Monterrey, Nuevo León.
+              </li>
+              <li>Grabación nocturna: figura humanoide cruza el patio.</li>
+              <li>
+                Propietario reporta semanas previas de
+                <strong>ruidos y objetos movidos</strong>.
+              </li>
+              <li>
+                Explicaciones racionales: mono, niño, artefacto de compresión.
+              </li>
+              <li>Explicación popular en TikTok: otra.</li>
+            </ul>
+            <a
+              class="video-link"
+              href="https://www.youtube.com/watch?v=1NyWWjVCCao"
+              target="_blank"
+              rel="noopener"
+              >Ver vídeo del avistamiento</a
+            >
+            <div class="source-links">
+              <a
+                href="https://www.infobae.com/mexico/2024/05/07/era-un-duende-captan-a-una-extrana-criatura-caminando-en-una-finca-de-monterrey/"
+                target="_blank"
+                rel="noopener"
+                >infobae.com — "¿Era un duende?" (mayo 2024)</a
+              >
+              <a
+                href="https://www.zocalo.com.mx/video-viral-sorprendente-avistamiento-de-un-supuesto-duende-en-una-finca-de-monterrey/"
+                target="_blank"
+                rel="noopener"
+                >zocalo.com.mx — avistamiento Monterrey</a
+              >
+              <a
+                href="https://www.unotv.com/estados/nuevo-leon/graban-a-supuesto-duende-corriendo-en-una-finca-de-monterrey/"
+                target="_blank"
+                rel="noopener"
+                >unotv.com — análisis del vídeo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>11 / 17</span
+          ><span>FUENTES: DEBATE.COM.MX 05/2024 · ZÓCALO 05/2024</span>
+        </div>
+      </section>
+
+      <!-- 12 PAREIDOLIA INTERACTIVA -->
+      <section data-screen-label="12 Pareidolia">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">12 / INTERACCIÓN</span
+            ><span>MINIEXPERIMENTO</span>
+          </div>
+          <span style="color: var(--blood)">— TOCA PARA REVELAR —</span>
+        </div>
+        <div class="kicker">Pausa · momento interactivo #2</div>
+        <h2 class="headline" style="font-size: 80px">¿Qué <em>ves</em>?</h2>
+        <div class="pareidolia">
+          <div class="frame" data-reveal>
+            <div class="pattern bark"><div class="blob"></div></div>
+            <div class="label">FRAME 01 — CORTEZA / ALABAMA</div>
+            <div class="reveal">
+              Tronco. Sombras. Pareidolia<br />en acción.
+            </div>
+          </div>
+          <div class="frame" data-reveal>
+            <div class="pattern curtain"><div class="face"></div></div>
+            <div class="label">FRAME 02 — CORTINA / DORMITORIO</div>
+            <div class="reveal">
+              Pliegues + luz indirecta.<br />Ningún niño.
+            </div>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>12 / 17</span
+          ><span>EXPLICA AVISTAMIENTOS · NO LOS DESCARTA TODOS</span>
+        </div>
+      </section>
+
+      <!-- 13 METODOLOGÍA -->
+      <section data-screen-label="13 Metodología">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">13 / METODOLOGÍA</span
+            ><span>CÓMO ANALIZAR UN AVISTAMIENTO</span>
+          </div>
+          <span class="stamp">PROTOCOLO</span>
+        </div>
+        <div class="kicker">Sin ser crédulo · sin ser cínico</div>
+        <h2 class="headline" style="font-size: 80px">
+          Tres preguntas<br />que <em>siempre</em> hay que hacer.
+        </h2>
+        <div class="method-grid" style="margin-top: 40px">
+          <div class="method-card">
+            <p class="step-num">01</p>
+            <p class="step-title">Testimonio.</p>
+            <p class="step-body">
+              ¿Cuántos testigos? ¿Independientes? ¿Estaban juntos cuando
+              ocurrió, o lo cuentan después? Un testigo solo no es nada. Veinte
+              testigos no coordinados ya es algo.
+            </p>
+          </div>
+          <div class="method-card">
+            <p class="step-num">02</p>
+            <p class="step-title">Contexto físico.</p>
+            <p class="step-body">
+              Luz, sombras, viento, alcohol, falta de sueño, animales en la
+              zona, cámara mala. La pareidolia se dispara con poca luz y la
+              mente cansada.
+            </p>
+          </div>
+          <div class="method-card">
+            <p class="step-num">03</p>
+            <p class="step-title">Patrón folklórico.</p>
+            <p class="step-body">
+              ¿Repite rasgos antiguos —pequeño, gorro, ruidos, objetos? Si
+              encaja con un patrón de hace siglos, no prueba que existan: prueba
+              que <strong>algo</strong> nos hace contar siempre la misma
+              historia.
+            </p>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>13 / 17</span
+          ><span
+            >APLICABLE A CUALQUIER VÍDEO VIRAL · TESTIMONIO + CONTEXTO +
+            PATRÓN</span
+          >
+        </div>
+      </section>
+
+      <!-- 14 PATRONES SIETE RASGOS -->
+      <section data-screen-label="14 Siete rasgos repetidos">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">14 / SÍNTESIS</span
+            ><span>SIETE RASGOS, CINCO CULTURAS</span>
+          </div>
+          <span>EXPEDIENTE 0317</span>
+        </div>
+        <h3 class="sub">
+          Patrón cruzado · Asturias × Guatemala × Alemania × Japón × Alabama
+        </h3>
+        <div class="checklist" style="margin-top: 16px">
+          <div class="check-item">
+            <span class="num">RASGO 01</span>
+            <div class="q">Estatura inferior a un niño humano.</div>
+            <div class="why">
+              Trasgu, Sombrerón, Kobold, Zashiki, Crichton — todos pequeños.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 02</span>
+            <div class="q">Cubrecabezas: gorro, sombrero, capucha.</div>
+            <div class="why">
+              Detalle absurdamente consistente. Nadie se pone de acuerdo en por
+              qué.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 03</span>
+            <div class="q">Vínculo a un espacio: casa, árbol, campo.</div>
+            <div class="why">Son territoriales. No quieren irse.</div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 04</span>
+            <div class="q">Travesuras: objetos movidos, ruidos.</div>
+            <div class="why">
+              El detalle más universal — y el más fácil de notar en tu propia
+              casa.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 05</span>
+            <div class="q">Conexión nocturna y lunar.</div>
+            <div class="why">
+              De día no aparecen. De noche, sobre todo con luna llena.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 06</span>
+            <div class="q">Animales inquietos en su presencia.</div>
+            <div class="why">
+              Caballos cansados sin motivo. Perros mirando una pared.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">RASGO 07</span>
+            <div class="q">Resistencia al exorcismo lógico.</div>
+            <div class="why">
+              No los echas con razón. Solo con tareas imposibles, espejos, sal o
+              silencio.
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="num">→</span>
+            <div class="q">
+              ¿Coincidencia universal?<br />¿O memoria compartida?
+            </div>
+            <div class="why">
+              Ningún antropólogo serio responde a esto. Pero todos miran la
+              lista y se quedan callados.
+            </div>
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>14 / 17</span
+          ><span
+            >SÍNTESIS PROPIA · BASADA EN FUENTES DE LAS SLIDES 03 – 11</span
+          >
+        </div>
+      </section>
+
+      <!-- 15 RESPUESTAS POSIBLES -->
+      <section data-screen-label="15 Tres respuestas">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">15 / CIERRE ANALÍTICO</span
+            ><span>TRES RESPUESTAS POSIBLES</span>
+          </div>
+          <span>EXPEDIENTE 0317</span>
+        </div>
+        <div class="kicker">Antes del cierre incómodo</div>
+        <h2 class="headline">
+          Si los inventamos siempre <em>iguales</em>,<br />¿por qué los
+          inventamos?
+        </h2>
+        <div class="cols-3" style="margin-top: 36px">
+          <div class="method-card">
+            <p class="step-num" style="font-size: 80px">A.</p>
+            <p class="step-title">Cerebro narrativo común.</p>
+            <p class="step-body">
+              Misma especie, mismas historias. Llegamos al mismo personaje
+              porque tenemos el mismo software mental.
+            </p>
+          </div>
+          <div class="method-card">
+            <p class="step-num" style="font-size: 80px">B.</p>
+            <p class="step-title">Memoria cultural antigua.</p>
+            <p class="step-body">
+              Hubo algo pequeño con lo que convivimos hace milenios. Lo que
+              queda es el eco —deformado, mítico, persistente.
+            </p>
+          </div>
+          <div class="method-card" style="border-color: var(--blood)">
+            <p class="step-num" style="font-size: 80px; color: var(--blood)">
+              C.
+            </p>
+            <p class="step-title">Siguen aquí.</p>
+            <p class="step-body">
+              Y lo de la lámpara, la trenza en el caballo y la figura entre las
+              ramas no es metáfora.
+            </p>
+          </div>
+        </div>
+        <p
+          class="lead"
+          style="
+            margin-top: 40px;
+            font-size: 30px;
+            max-width: none;
+            text-align: center;
+          "
+        >
+          Las tres son inquietantes.
+          <em style="color: var(--blood)"
+            >Elegid la vuestra antes de irse a dormir.</em
+          >
+        </p>
+        <div class="file-footer">
+          <span>15 / 17</span
+          ><span
+            >NO HAY RESPUESTA CORRECTA · SOLO LA QUE OS QUITE EL SUEÑO</span
+          >
+        </div>
+      </section>
+
+      <!-- 16 CIERRE INCÓMODO -->
+      <section class="closer has-bg" data-screen-label="16 Cierre incómodo">
+        <img
+          class="bg-image"
+          src="https://images.unsplash.com/photo-1487147264018-f937fba0c817?w=1920&q=85"
+          alt=""
+          style="opacity: 0.35"
+        />
+        <div
+          class="bg-overlay"
+          style="
+            background: radial-gradient(
+              ellipse at center,
+              rgba(8, 8, 10, 0.7) 0%,
+              rgba(0, 0, 0, 0.98) 90%
+            );
+          "
+        ></div>
+        <div class="closer-text">
+          Hablar de ellos por la noche,<br />
+          según el folklore,<br />
+          <em>no es buena idea.</em>
+        </div>
+        <div class="small">
+          SI ESTA NOCHE OYES ALGO · NO LO MIRES · NO LE HABLES · NO PREGUNTES SU
+          NOMBRE
+        </div>
+      </section>
+
+      <!-- 17 BIBLIOGRAFÍA -->
+      <section data-screen-label="17 Bibliografía">
+        <div class="file-header">
+          <div class="left">
+            <span class="case-id">17 / BIBLIOGRAFÍA</span
+            ><span>FUENTES CONSULTADAS</span>
+          </div>
+          <span>EXPEDIENTE 0317 — FIN</span>
+        </div>
+        <h2 class="headline" style="font-size: 56px">
+          Para seguir <em>investigando</em><br />cuando no podáis dormir.
+        </h2>
+        <div class="biblio" style="margin-top: 24px">
+          <div class="biblio-item">
+            <span class="src">Definición / etimología</span>RAE — Diccionario de
+            Autoridades · Wikipedia «Duende» · UNAM, «Duendes in Contemporary
+            Spain (18th–20th)», 2025.
+          </div>
+          <div class="biblio-item">
+            <span class="src">Trasgu / Trasno · Asturias</span>Wikipedia
+            «Trasgu» · Astures.es «Mitología asturiana» · Llano Roza, «Del
+            folklore asturiano», 1922 · Álvarez Peña, «Mitología asturiana»,
+            2001.
+          </div>
+          <div class="biblio-item">
+            <span class="src">El Sombrerón · Guatemala</span>Wikipedia «El
+            Sombrerón» · Aprende.guatemala.com «Leyenda de El Sombrerón» ·
+            Prensa Libre · Celso Lara Figueroa, «Leyendas de misterio».
+          </div>
+          <div class="biblio-item">
+            <span class="src">Kobold · Redcap · Huldufólk</span>Encyclopaedia
+            Britannica «Kobold» · Wikipedia «Redcap» · Wikipedia «Huldufólk».
+          </div>
+          <div class="biblio-item">
+            <span class="src">Zashiki-warashi · Japón</span>Yokai.com «Zashiki
+            warashi» · Yokai.jp «Zashiki-warashi».
+          </div>
+          <div class="biblio-item">
+            <span class="src">Crichton Leprechaun · Alabama 2006</span>Wikipedia
+            «Crichton Leprechaun» · WPMI-TV / NBC 15 — reportaje original
+            (YouTube) · AL.com — entrevista a Shun Thomas.
+          </div>
+          <div class="biblio-item">
+            <span class="src">Caso Monterrey · 2024</span>Debate.com.mx (mayo
+            2024) · Zócalo (mayo 2024).
+          </div>
+          <div class="biblio-item">
+            <span class="src">Pareidolia / metodología</span>APA — «Pareidolia»
+            · Carl Sagan, «The Demon-Haunted World», 1995.
+          </div>
+        </div>
+        <div class="file-footer">
+          <span>17 / 17</span
+          ><span
+            >EN FOLKLORE · UNA SOLA FUENTE NO ES NADA · UN PATRÓN EN MUCHAS · YA
+            ES ALGO</span
+          >
+        </div>
+      </section>
+    </deck-stage>
+
+    <script src="deck-stage.js"></script>
+    <script>
+      // Votación
+      document.querySelectorAll(".vote-btn").forEach((btn) => {
+        let count = 0;
+        const counter = btn.querySelector("[data-count]");
+        btn.addEventListener("click", () => {
+          count++;
+          counter.textContent = count;
+          btn.style.borderColor = "var(--blood)";
+          btn.style.color = "var(--blood)";
+        });
+      });
+
+      // Pareidolia reveal
+      document.querySelectorAll("[data-reveal]").forEach((frame) => {
+        frame.addEventListener("click", () => {
+          frame.classList.toggle("revealed");
+        });
+      });
+    </script>
+  </body>
+</html>
